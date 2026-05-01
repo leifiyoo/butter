@@ -4,11 +4,11 @@
 For any frontend, UI, design, component, Tailwind, React, or shadcn task in this repo, use Butter.
 
 Read in order:
-1. `skills/butter/SKILL.md`
-2. `skills/butter/visual/SKILL.md`
-3. `skills/butter/motion/SKILL.md`
-4. `skills/butter/patterns/SKILL.md`
-5. `skills/butter/construction/SKILL.md` when implementing code
+1. `skills/SKILL.md`
+2. `skills/visual/SKILL.md`
+3. `skills/motion/SKILL.md`
+4. `skills/patterns/SKILL.md`
+5. `skills/construction/SKILL.md` when implementing code
 
 Do not replace Butter with generic shadcn, card-stack, dashboard, or landing-page defaults.
 

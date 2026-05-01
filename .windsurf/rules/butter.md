@@ -1,6 +1,6 @@
 # Butter UI Rules
 
-For UI/frontend/design work, use the Butter skill in `skills/butter/`.
+For UI/frontend/design work, use the Butter skill in `skills/`.
 
 Load root plus `visual`, `motion`, and `patterns`; load `construction` when coding.
 

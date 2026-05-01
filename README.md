@@ -4,18 +4,18 @@ Butter is a compact UI design skill for AI coding agents. It captures a premium 
 
 ## Canonical Skill Files
 
-- `skills/butter/SKILL.md` - root trigger, load order, core taste, quality gate
-- `skills/butter/visual/SKILL.md` - radius, color, typography, spacing, surfaces
-- `skills/butter/motion/SKILL.md` - springs, morphs, progress timing, text motion
-- `skills/butter/patterns/SKILL.md` - reusable Butter component patterns
-- `skills/butter/construction/SKILL.md` - implementation rules that protect design quality
+- `skills/SKILL.md` - root trigger, load order, core taste, quality gate
+- `skills/visual/SKILL.md` - radius, color, typography, spacing, surfaces
+- `skills/motion/SKILL.md` - springs, morphs, progress timing, text motion
+- `skills/patterns/SKILL.md` - reusable Butter component patterns
+- `skills/construction/SKILL.md` - implementation rules that protect design quality
 
 ## Agent Support
 
 The repository includes adapters for common coding agents:
 
 - Codex and other `AGENTS.md` readers
-- Claude Code via `CLAUDE.md` and `.claude/skills/butter/SKILL.md`
+- Claude Code via `CLAUDE.md` and `.claude/skills/SKILL.md`
 - GitHub Copilot via `.github/copilot-instructions.md`
 - Kilo Code via `.kilo/rules/butter.md` and `.kilocode/rules/butter.md`
 - Cursor via `.cursor/rules/butter.mdc`
@@ -23,4 +23,4 @@ The repository includes adapters for common coding agents:
 - Gemini via `GEMINI.md`
 - Cline and Roo via `.clinerules` and `.roo/rules/butter.md`
 
-Agent-specific files are intentionally short. The canonical Butter rules stay in `skills/butter/`.
+Agent-specific files are intentionally short. The canonical Butter rules stay in `skills/`.

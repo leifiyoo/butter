@@ -6,11 +6,11 @@ description: Use when designing, building, or reviewing Butter-style React, Tail
 # Butter Skill Adapter
 
 Canonical Butter files live in this repo:
-- `skills/butter/SKILL.md`
-- `skills/butter/visual/SKILL.md`
-- `skills/butter/motion/SKILL.md`
-- `skills/butter/patterns/SKILL.md`
-- `skills/butter/construction/SKILL.md`
+- `skills/SKILL.md`
+- `skills/visual/SKILL.md`
+- `skills/motion/SKILL.md`
+- `skills/patterns/SKILL.md`
+- `skills/construction/SKILL.md`
 
 For real UI work, read root plus `visual`, `motion`, and `patterns`. Add `construction` when implementing code.
 
