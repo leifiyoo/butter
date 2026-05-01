@@ -3,22 +3,27 @@
 Butter is a compact UI design skill for AI coding agents. Use it when designing,
 building, or reviewing React, Tailwind, shadcn, or frontend interfaces.
 
-Canonical files:
-- `SKILL.md` - root trigger, load order, core values, quality gate
-- `visual.md` - radius, color, type, spacing, surface rules
-- `motion.md` - springs, morphs, progress timing, text motion
-- `patterns.md` - reusable Butter UI component patterns
-- `construction.md` - implementation rules that protect design quality
+Selectable skill files:
+- `SKILL.md` - full Butter core, load order, values, quality gate
+- `visual/SKILL.md` - radius, color, type, spacing, surface rules
+- `motion/SKILL.md` - springs, morphs, progress timing, text motion
+- `patterns/SKILL.md` - reusable Butter UI component patterns
+- `construction/SKILL.md` - implementation rules that protect design quality
 
 Load order for real UI work:
 1. Read `SKILL.md`.
-2. Read `visual.md`.
-3. Read `motion.md`.
-4. Read `patterns.md`.
-5. Read `construction.md` when writing code.
+2. Read `visual/SKILL.md`.
+3. Read `motion/SKILL.md`.
+4. Read `patterns/SKILL.md`.
+5. Read `construction/SKILL.md` when writing code.
 
 Do not use only this file for implementation. This file is an index and
 orientation layer; the Butter subskills contain the actual design rules.
+
+Download guidance:
+- Want one slash command: install only `skills/SKILL.md`.
+- Want focused commands: install one or more subskills.
+- Want everything: install all five skill entries.
 
 Butter quality gate:
 - Build the usable app object first, not a landing page.

@@ -4,10 +4,10 @@ For UI/frontend work in this repository, follow Butter.
 
 Use these files as the source of truth:
 - `skills/SKILL.md`
-- `skills/visual.md`
-- `skills/motion.md`
-- `skills/patterns.md`
-- `skills/construction.md` for implementation
+- `skills/visual/SKILL.md`
+- `skills/motion/SKILL.md`
+- `skills/patterns/SKILL.md`
+- `skills/construction/SKILL.md` for implementation
 
 Keep generated UI compact, tactile, and production-shaped:
 - neutral shell with stateful accents

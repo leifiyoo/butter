@@ -5,14 +5,24 @@ Butter is a compact UI design skill for AI coding agents. It captures a premium 
 ## Canonical Skill Files
 
 - `skills/SKILL.md` - root trigger, load order, core taste, quality gate
-- `skills/visual.md` - radius, color, typography, spacing, surfaces
-- `skills/motion.md` - springs, morphs, progress timing, text motion
-- `skills/patterns.md` - reusable Butter component patterns
-- `skills/construction.md` - implementation rules that protect design quality
+- `skills/visual/SKILL.md` - radius, color, typography, spacing, surfaces
+- `skills/motion/SKILL.md` - springs, morphs, progress timing, text motion
+- `skills/patterns/SKILL.md` - reusable Butter component patterns
+- `skills/construction/SKILL.md` - implementation rules that protect design quality
 
-Only `skills/SKILL.md` is an installable skill entry. The other files are
-references loaded by the Butter skill, so installers and slash-command UIs do
-not show duplicate Butter commands.
+## Download Choices
+
+The repo intentionally exposes multiple skill entries so installers can choose
+what to download:
+
+- Install `skills/SKILL.md` for one complete Butter command.
+- Install `skills/visual/SKILL.md`, `skills/motion/SKILL.md`,
+  `skills/patterns/SKILL.md`, or `skills/construction/SKILL.md` when you want
+  only a focused part.
+- Install all five only if you want separate slash commands for each Butter
+  area.
+
+If duplicate slash commands are annoying, install only the core Butter skill.
 
 ## Agent Support
 

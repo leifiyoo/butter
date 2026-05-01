@@ -9,10 +9,10 @@ Butter is a compact interaction language for premium utility UI. It favors soft 
 
 ## Load What You Need
 
-- Visual decisions: read `visual.md`.
-- Motion decisions: read `motion.md`.
-- Implementation decisions that affect design quality: read `construction.md`.
-- Pattern choice: read `patterns.md`.
+- Visual decisions: read `visual/SKILL.md`.
+- Motion decisions: read `motion/SKILL.md`.
+- Implementation decisions that affect design quality: read `construction/SKILL.md`.
+- Pattern choice: read `patterns/SKILL.md`.
 - For building a visible component or app screen, read all four files before implementing. The root file alone is only a router and taste checksum.
 - For other AI agents, route them here first, then into the four subfiles. Do not duplicate or invent alternate Butter rules in agent-specific instruction files.
 

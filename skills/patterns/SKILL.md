@@ -1,5 +1,5 @@
 ---
-name: "butter/patterns"
+name: "butter-patterns"
 description: "Use when choosing recurring Butter UI patterns: compact pickers, morphing controls, rails, tabs, status pills, input chips, media controls, and cards."
 ---
 
