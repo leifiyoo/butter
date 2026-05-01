@@ -3,6 +3,10 @@
 Butter is a compact UI design skill for AI coding agents. Use it when designing,
 building, or reviewing React, Tailwind, shadcn, or frontend interfaces.
 
+Core directive: make every touched UI smoother, more tactile, more polished,
+and more animated. Butter should improve motion, visual hierarchy, spacing,
+state clarity, and text/number transitions everywhere it is applied.
+
 Selectable skill files:
 - `SKILL.md` - full Butter core, load order, values, quality gate
 - `visual/SKILL.md` - radius, color, type, spacing, surface rules
@@ -26,6 +30,9 @@ Download guidance:
 - Want everything: install all five skill entries.
 
 Butter quality gate:
+- Improve the touched UI, not only preserve it.
+- Add meaningful motion to visible state changes.
+- Animate changing labels and numeric values with Butter bloom/rolling motion.
 - Build the usable app object first, not a landing page.
 - Use neutral shells with stateful accents; color is not decoration.
 - Use expressive radius `24-40px` or utility radius `8-12px`.

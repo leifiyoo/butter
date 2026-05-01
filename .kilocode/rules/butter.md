@@ -2,6 +2,8 @@
 
 Use Butter for every UI, frontend, React, Tailwind, shadcn, or design task.
 
+Improve the touched UI, not just the code. Add meaningful motion, animated labels/numbers, compact polish, and tactile state transitions.
+
 Read:
 - `skills/SKILL.md`
 - `skills/visual/SKILL.md`

@@ -1,6 +1,10 @@
 # Butter
 
-Butter is a compact UI design skill for AI coding agents. It captures a premium React/Tailwind/shadcn interaction language: soft physical objects, restrained neutral surfaces, stateful color, precise morphing motion, dense utility widgets, and strict anti-generic design rules.
+Butter is a compact UI design skill for AI coding agents. It captures a premium React/Tailwind/shadcn interaction language: soft physical objects, restrained neutral surfaces, stateful color, precise morphing motion, animated text/numbers, dense utility widgets, and strict anti-generic design rules.
+
+Butter's core job is to make touched UI visibly better: smoother motion, better
+spacing, stronger hierarchy, animated values, tactile controls, and fast
+high-quality implementation.
 
 ## Canonical Skill Files
 

@@ -9,6 +9,8 @@ alwaysApply: true
 
 Use Butter for UI, frontend, component, Tailwind, React, shadcn, and visual design tasks.
 
+Core directive: make touched UI visibly better. Improve animation, animated text/numbers, hierarchy, spacing, and state transitions. Do not leave static generic UI.
+
 Read canonical files before implementation:
 - `skills/SKILL.md`
 - `skills/visual/SKILL.md`
@@ -16,4 +18,4 @@ Read canonical files before implementation:
 - `skills/patterns/SKILL.md`
 - `skills/construction/SKILL.md`
 
-Preserve Butter feel: compact object UI, neutral shell, stateful accent, `24-40px` expressive radius, `44-56px` controls, tabular numerals, semibold/bold labels, tactile springs, linear progress, no decorative blobs or generic gradients.
+Preserve Butter feel: compact object UI, neutral shell, stateful accent, `24-40px` expressive radius, `44-56px` controls, tabular numerals, semibold/bold labels, tactile springs, animated text/number bloom, linear progress, no decorative blobs or generic gradients.
