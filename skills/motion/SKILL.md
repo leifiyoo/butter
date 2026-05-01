@@ -1,6 +1,6 @@
 ---
-name: butter/motion
-description: Use when designing Butter motion: springs, morphs, drag behavior, animated numbers, reveals, feedback, and motion rules that preserve the Butter feel.
+name: "butter/motion"
+description: "Use when designing Butter motion: springs, morphs, drag behavior, animated numbers, reveals, feedback, and motion rules that preserve the Butter feel."
 ---
 
 # Butter Motion

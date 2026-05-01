@@ -1,6 +1,6 @@
 ---
-name: butter/construction
-description: Use when implementing Butter components while preserving design quality: composition rules, state-to-geometry mapping, data boundaries, accessibility, and production pitfalls.
+name: "butter/construction"
+description: "Use when implementing Butter components while preserving design quality: composition rules, state-to-geometry mapping, data boundaries, accessibility, and production pitfalls."
 ---
 
 # Butter Construction

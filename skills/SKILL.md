@@ -1,6 +1,6 @@
 ---
-name: butter
-description: Use when designing, building, or reviewing Butter-style interfaces: compact premium React/Tailwind app UI with soft surfaces, morphing controls, precise motion, dense utility widgets, and strict anti-generic design rules.
+name: "butter"
+description: "Use when designing, building, or reviewing Butter-style interfaces: compact premium React/Tailwind app UI with soft surfaces, morphing controls, precise motion, dense utility widgets, and strict anti-generic design rules."
 ---
 
 # Butter

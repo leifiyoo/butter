@@ -1,6 +1,6 @@
 ---
-name: butter/visual
-description: Use when deciding Butter visual language: color, radius, density, typography, icon treatment, hierarchy, and what makes a UI stop feeling like Butter.
+name: "butter/visual"
+description: "Use when deciding Butter visual language: color, radius, density, typography, icon treatment, hierarchy, and what makes a UI stop feeling like Butter."
 ---
 
 # Butter Visual

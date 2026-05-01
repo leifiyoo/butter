@@ -1,6 +1,6 @@
 ---
-name: butter
-description: Use when designing, building, or reviewing Butter-style React, Tailwind, shadcn, or frontend interfaces.
+name: "butter"
+description: "Use when designing, building, or reviewing Butter-style React, Tailwind, shadcn, or frontend interfaces."
 ---
 
 # Butter Skill Adapter
