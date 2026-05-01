@@ -1,0 +1,43 @@
+# Butter LLM Entry Point
+
+Butter is a compact UI design skill for AI coding agents. Use it when designing,
+building, or reviewing React, Tailwind, shadcn, or frontend interfaces.
+
+Canonical files:
+- `butter/SKILL.md` - root trigger, load order, core values, quality gate
+- `butter/visual/SKILL.md` - radius, color, type, spacing, surface rules
+- `butter/motion/SKILL.md` - springs, morphs, progress timing, text motion
+- `butter/patterns/SKILL.md` - reusable Butter UI component patterns
+- `butter/construction/SKILL.md` - implementation rules that protect design quality
+
+Load order for real UI work:
+1. Read `butter/SKILL.md`.
+2. Read `butter/visual/SKILL.md`.
+3. Read `butter/motion/SKILL.md`.
+4. Read `butter/patterns/SKILL.md`.
+5. Read `butter/construction/SKILL.md` when writing code.
+
+Do not use only this file for implementation. This file is an index and
+orientation layer; the Butter subskills contain the actual design rules.
+
+Butter quality gate:
+- Build the usable app object first, not a landing page.
+- Use neutral shells with stateful accents; color is not decoration.
+- Use expressive radius `24-40px` or utility radius `8-12px`.
+- Keep touch targets `44-56px`.
+- Use `1-2px` soft neutral borders.
+- Use semibold labels, bold actions, and tabular numerals.
+- Use tactile springs for object changes.
+- Use linear timing for progress, recording, loading, and elapsed time.
+- Expanded states must visibly morph from their collapsed trigger.
+- Text must fit on mobile and desktop.
+
+Never:
+- decorative blobs
+- generic gradients
+- nested cards
+- marketing hero composition for tools
+- thin typography
+- explanatory in-app copy
+- spring animation for time/progress
+- unrelated replacement between collapsed and expanded states
