@@ -1,0 +1,19 @@
+---
+description: Butter UI design rules for React, Tailwind, shadcn, and frontend work.
+globs:
+  - "**/*.{ts,tsx,js,jsx,css,mdx,md}"
+alwaysApply: true
+---
+
+# Butter
+
+Use Butter for UI, frontend, component, Tailwind, React, shadcn, and visual design tasks.
+
+Read canonical files before implementation:
+- `skills/butter/SKILL.md`
+- `skills/butter/visual/SKILL.md`
+- `skills/butter/motion/SKILL.md`
+- `skills/butter/patterns/SKILL.md`
+- `skills/butter/construction/SKILL.md`
+
+Preserve Butter feel: compact object UI, neutral shell, stateful accent, `24-40px` expressive radius, `44-56px` controls, tabular numerals, semibold/bold labels, tactile springs, linear progress, no decorative blobs or generic gradients.
