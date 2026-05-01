@@ -26,6 +26,37 @@ Upgrade:
 
 Do not leave a Butter component feeling static.
 
+## Motion Variation Engine
+
+Do not use the same animation everywhere. Choose one dominant motion signature
+and one supporting signature per component.
+
+Dominant signatures:
+- **Blooming State:** text/number bloom is the memorable detail.
+- **Morphing Shell:** trigger expands into the final object.
+- **Sliding Pill:** selected state glides under stable controls.
+- **Physical Scrub:** direct manipulation, fixed marker, lifted value bubble.
+- **Feedback Snap:** success/error/copy has a compact kinetic acknowledgement.
+
+Supporting signatures:
+- icon blur/scale swap
+- list row stagger
+- chevron rotation
+- subtle active border progress
+- bottom-sheet/panel measured height
+
+Never apply all signatures at once. Premium motion feels orchestrated, not busy.
+
+## Respect Reduced Motion And User Limits
+
+If the user asks for no animation or accessibility requires reduced motion:
+- remove character stagger
+- remove large y movement and scale
+- keep instant state changes with small opacity fade only
+- preserve layout stability and visual hierarchy
+
+Do not argue with user motion constraints.
+
 ## Spring Palette
 
 - Firm object movement: `stiffness 400-600`, `damping 35-50`, `mass 0.8-1.2`.
@@ -83,6 +114,22 @@ Pattern:
 
 If a number changes instantly with no animation, it is not Butter.
 
+## Unknown Motion Element Recipe
+
+For unfamiliar controls, assign motion by job:
+
+- selection -> shared active pill or moving outline
+- entering value -> animated label/value + stable input shell
+- confirming -> button press scale + text bloom/success state
+- opening detail -> measured height morph
+- comparing -> rows stagger and active value highlight
+- uploading/loading -> linear progress + stable shell
+- dragging/measuring -> fixed marker + moving track + lifted bubble
+- error -> compact wobble, not page-wide shake
+
+If the component has no changing text/value, add motion to active state,
+disclosure, or feedback instead.
+
 ## Morph Rules
 
 - Animate size, radius, border, background, and internal positions together.
@@ -133,3 +180,4 @@ Before shipping:
 - Open/close has presence animation.
 - Active selection uses shared layout motion.
 - Motion improves clarity and does not slow the task.
+- Motion has a chosen signature; it is not random decoration.

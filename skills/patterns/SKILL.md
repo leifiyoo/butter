@@ -17,6 +17,20 @@ Every pattern below expects:
 - compact high-quality visual treatment
 - no explanatory helper copy unless product-critical
 
+## Respect The User's Requested Element
+
+If the user asks for a specific element, do not replace it with a different
+pattern just because Butter has a favorite. Upgrade that element.
+
+Examples:
+- Asked for a checkbox -> build a premium checkbox/toggle row, not tabs.
+- Asked for a table -> build a compact animated data table, not cards.
+- Asked for a modal -> make the modal excellent unless they allow inline morph.
+- Asked for no animation -> keep the pattern but reduce motion.
+
+Butter is a quality layer and interaction language, not a reason to ignore the
+request.
+
 ## Pattern Selection Engine
 
 Choose the strongest match:
@@ -30,6 +44,24 @@ Choose the strongest match:
 - Need status + retry -> inline status pill with retry slide-in.
 - Need copy/share -> morphing QR/copy panel, no toast.
 - Need calendar/date browsing -> horizontal rail + detail panel.
+
+## Unknown Pattern Invention Matrix
+
+When no pattern fits, build a new one from this matrix:
+
+| Job | Shell | State | Motion | Value |
+| --- | --- | --- | --- | --- |
+| choose | pill rail | moving active bg | shared layout | animated label |
+| inspect | floating island | selected item | measured panel | count/detail |
+| enter | compact field | focus ring/tint | trigger morph | animated placeholder/value |
+| compare | dense rows | highlighted row | row stagger | animated metric |
+| upload | drop island | progress ring | linear fill | file chip |
+| schedule | summary pill | date rail | selected date morph | animated day/time |
+| filter | chip group | active chip | pill slide | animated result count |
+| media | waveform/scrubber | playhead | linear progress | animated time |
+| pay/swap | two-field card | selected currency | digit roll | animated amount |
+
+The invented pattern must still be compact, tactile, and implementable.
 
 ## Mandatory Micro-Patterns
 
@@ -83,6 +115,20 @@ Use these everywhere they fit:
 - **Run widget:** large NumberFlow metric, draggable ruler, grounded CTA.
 - **Feedback card:** rating first, optional explanation second, success returns to next action.
 
+## High-End Upgrade Recipes
+
+Use these when output quality feels ordinary:
+
+- Add one animated state label above the control.
+- Replace static selected background with shared active pill.
+- Replace instant numeric text with rolling digit columns.
+- Convert a loose panel into one object that morphs from its trigger.
+- Add bottom fade to scrollable content.
+- Move secondary actions into compact icon buttons.
+- Convert raw accepted text into a chip or committed summary.
+- Replace generic hover with tap/state motion.
+- Tighten spacing and increase type confidence.
+
 ## NEVER
 
 - Never use a static shadcn card when a compact object pattern fits.
@@ -90,3 +136,4 @@ Use these everywhere they fit:
 - Never show all controls at once if modes can reduce clutter.
 - Never leave accepted input raw; resolve into chip, committed summary, or selected state.
 - Never let a selected value change without text/number animation.
+- Never make every element a pill rail; vary silhouette by job.

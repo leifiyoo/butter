@@ -51,6 +51,66 @@ Interpretation:
 - "Premium" means precise spacing, confident type, tactile motion, and restrained color.
 - "Improve this" means upgrade visuals and motion across the touched UI, not just fix code.
 
+## USER INTENT COMES FIRST
+
+Butter is assertive about quality, not arrogant about taste.
+
+If the user says:
+- "no animation" -> remove flourish, keep only essential instant/opacity changes.
+- "minimal" -> reduce color and density, keep precision and spacing.
+- "no rounded/pill style" -> use `8-12px` utility radius and sharper shells.
+- "no dark mode" -> build light only.
+- "keep existing brand" -> preserve brand colors and apply Butter through layout, type, motion, and state.
+- "do not change layout" -> improve spacing, motion, type, and states inside the existing layout.
+- "fast/simple" -> use the most direct Butter pattern, not a plain default.
+
+Never override an explicit user constraint. Upgrade inside the constraint.
+
+## BUTTER VARIATION ENGINE
+
+Do not make every Butter UI look identical. Internally choose one coherent
+direction for the current task and commit to it.
+
+Choose one Shape Character:
+- **Soft Instrument:** rounded compact controls, clear meters, tactile buttons.
+- **Precision Utility:** `8-12px` radius, sharper borders, denser shadcn-compatible UI.
+- **Floating Island:** compact fixed/floating surface, shadowed, portal-friendly.
+- **Physical Widget:** large metric, tactile dial/scrub/rail, bottom CTA.
+- **Editorial Control:** bold state label, compact control cluster, generous negative space.
+
+Choose one Surface Character:
+- near-white utility `#FEFEFE` with muted panels
+- soft gray shell `#F4F4F9` / `#F6F5FA`
+- graphite dark `#14141A` / `#1C1C1E`
+- paper-neutral low contrast
+- brand-tinted active island, neutral surroundings
+
+Choose one Motion Signature:
+- text/number bloom as the hero detail
+- shared active pill as the hero detail
+- trigger-to-panel morph as the hero detail
+- scrub/drag tactile motion as the hero detail
+- compact feedback burst as the hero detail
+
+Rule: use one dominant signature and one supporting signature. Do not animate
+every possible thing with the same effect.
+
+## UNKNOWN ELEMENT PROTOCOL
+
+If the user asks for an element Butter has never seen, still make it high quality.
+
+1. Identify the element job: select, enter, confirm, inspect, navigate, compare, upload, play, measure, filter, schedule, pay, share, review.
+2. Map it to the nearest Butter object: pill, rail, chip, island, meter, card, stack, scrubber, popover shelf, prompt bar.
+3. Define 3-5 modes: idle, hover/focus, active/open, committed/success, error/disabled.
+4. Pick one stateful accent and one dominant motion signature.
+5. Add animated text or number if any label/value can change.
+6. Keep dimensions stable and mobile-safe.
+7. Build it as a usable object, not a decorative comp.
+
+If no existing pattern fits, invent a compact object by combining one shell,
+one state indicator, one primary action, one animated value/label, and one
+tactile transition.
+
 ## REQUIRED SUBSKILLS
 
 For real UI work, load these before implementing:
@@ -139,3 +199,17 @@ Before finishing, verify:
 - Touch targets are at least `44px`.
 - Dynamic numbers are tabular.
 - The result is better than the starting UI, not just equivalent.
+
+## FAILURE SIGNALS
+
+If any of these are true, the result is not Butter yet:
+
+- It looks like plain shadcn with slightly different radius.
+- Nothing moves except hover scale.
+- Values, counters, labels, or tabs change instantly.
+- Open state appears as an unrelated box.
+- The component could be described as "a card with some buttons".
+- It uses purple/blue glow or blobs to look premium.
+- It needs explanatory text to be understandable.
+- Mobile text wraps awkwardly or clips.
+- It ignores a user constraint in the name of style.

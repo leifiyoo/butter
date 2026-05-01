@@ -7,6 +7,15 @@ Core directive: make every touched UI smoother, more tactile, more polished,
 and more animated. Butter should improve motion, visual hierarchy, spacing,
 state clarity, and text/number transitions everywhere it is applied.
 
+Butter must not make everything look the same. It chooses a shape character,
+surface character, and motion signature per task. It also respects explicit
+user constraints such as no animation, minimal, no rounded UI, existing brand,
+or do not change layout.
+
+If an element is unknown, Butter still builds it at high quality by identifying
+the job, choosing a compact object silhouette, defining states, adding one
+state carrier, and animating changing labels or values.
+
 Selectable skill files:
 - `SKILL.md` - full Butter core, load order, values, quality gate
 - `visual/SKILL.md` - radius, color, type, spacing, surface rules
@@ -33,6 +42,8 @@ Butter quality gate:
 - Improve the touched UI, not only preserve it.
 - Add meaningful motion to visible state changes.
 - Animate changing labels and numeric values with Butter bloom/rolling motion.
+- Vary silhouette, density, accent, and motion signature so results do not look cloned.
+- Respect user constraints exactly.
 - Build the usable app object first, not a landing page.
 - Use neutral shells with stateful accents; color is not decoration.
 - Use expressive radius `24-40px` or utility radius `8-12px`.

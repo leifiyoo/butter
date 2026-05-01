@@ -19,6 +19,20 @@ When touching UI:
 - remove generic card/default styling
 - keep code simple enough to ship quickly
 
+## Build Strategy For Fast High Quality
+
+Use this order when time is short:
+
+1. Choose the simplest Butter pattern that matches the job.
+2. Lock dimensions and responsive constraints.
+3. Add the state model.
+4. Add shared layout motion for selection/open state.
+5. Add AnimatedText or AnimatedNumber where values change.
+6. Polish radius, border, spacing, icons, and type.
+7. Run the final implementation check.
+
+Do not spend time inventing architecture while leaving the UI static.
+
 ## Required Implementation Defaults
 
 - Use `motion/react` for layout, presence, active pills, text bloom, number transitions, drag.
@@ -27,6 +41,21 @@ When touching UI:
 - Use `lucide-react` for common UI icons; use other icon packs only for branded/category icons.
 - Use local finite modes for compact widgets: `idle`, `open`, `editing`, `recording`, `reviewing`, `playing`, `sent`.
 - Prefer one component with modeful geometry over many unrelated panels.
+
+## If The Element Is Unknown
+
+Implement by contract:
+
+- Define `mode` or `state` first.
+- Identify dynamic labels, numbers, counts, timers, or selected values.
+- Add the relevant animation primitive.
+- Pick one shell silhouette and one state carrier.
+- Preserve the requested element semantics.
+- Use existing local design tokens/classes when available.
+- Keep the result accessible and responsive.
+
+Unknown does not mean generic. Unknown means compose a Butter object from first
+principles.
 
 ## Animated Text Primitive
 
@@ -174,3 +203,5 @@ Before finishing:
 - Expanded UI morphs from its trigger.
 - No text overflows.
 - No generic low-quality default UI remains in touched surfaces.
+- User constraints are respected exactly.
+- The component has one clear motion signature and no random flourish.

@@ -6,6 +6,11 @@ Butter's core job is to make touched UI visibly better: smoother motion, better
 spacing, stronger hierarchy, animated values, tactile controls, and fast
 high-quality implementation.
 
+It is intentionally opinionated but not one-note. The skill includes variation
+systems for shape, surface, density, accent, and motion signature, plus an
+unknown-element protocol for making unfamiliar UI high quality without ignoring
+the user's request.
+
 ## Canonical Skill Files
 
 - `skills/SKILL.md` - root trigger, load order, core taste, quality gate
@@ -27,6 +32,9 @@ what to download:
   area.
 
 If duplicate slash commands are annoying, install only the core Butter skill.
+
+Best default: install `skills/SKILL.md`. It tells agents to load the subskills
+when real UI work needs deeper visual, motion, pattern, or construction rules.
 
 ## Agent Support
 
