@@ -1,5 +1,5 @@
 # Butter UI Rules
 
-Use `skills/SKILL.md` for UI/frontend/design work, then load `visual`, `motion`, `patterns`, and `construction` as needed.
+Use `skills/butter/SKILL.md` for UI/frontend/design work, then load `visual`, `motion`, `patterns`, and `construction` as needed.
 
 Keep the Butter feel: compact object UI, neutral shell, stateful accent, expressive radius, stable controls, animated text/numbers, tabular numerals, tactile springs, linear progress, no blobs, no generic gradients, no nested cards.

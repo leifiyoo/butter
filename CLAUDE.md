@@ -5,11 +5,11 @@ When a task touches UI, frontend code, React, Tailwind, shadcn, or visual design
 Core directive: make the UI better everywhere you touch it. Add premium motion, animated labels/numbers, compact polish, stable layout, and tactile state transitions. Static generic UI is not an acceptable Butter result.
 
 Do not stop at the root file for real UI work. Read:
-1. `skills/SKILL.md`
-2. `skills/visual/SKILL.md`
-3. `skills/motion/SKILL.md`
-4. `skills/patterns/SKILL.md`
-5. `skills/construction/SKILL.md` when coding
+1. `skills/butter/SKILL.md`
+2. `skills/butter-visual/SKILL.md`
+3. `skills/butter-motion/SKILL.md`
+4. `skills/butter-patterns/SKILL.md`
+5. `skills/butter-construction/SKILL.md` when coding
 
 Butter quality bar:
 - visible motion for meaningful state changes

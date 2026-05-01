@@ -18,23 +18,23 @@ state carrier, and animating changing labels or values.
 
 Selectable skill files:
 - `SKILL.md` - full Butter core, load order, values, quality gate
-- `visual/SKILL.md` - radius, color, type, spacing, surface rules
-- `motion/SKILL.md` - springs, morphs, progress timing, text motion
-- `patterns/SKILL.md` - reusable Butter UI component patterns
-- `construction/SKILL.md` - implementation rules that protect design quality
+- `../butter-visual/SKILL.md` - radius, color, type, spacing, surface rules
+- `../butter-motion/SKILL.md` - springs, morphs, progress timing, text motion
+- `../butter-patterns/SKILL.md` - reusable Butter UI component patterns
+- `../butter-construction/SKILL.md` - implementation rules that protect design quality
 
 Load order for real UI work:
 1. Read `SKILL.md`.
-2. Read `visual/SKILL.md`.
-3. Read `motion/SKILL.md`.
-4. Read `patterns/SKILL.md`.
-5. Read `construction/SKILL.md` when writing code.
+2. Read `../butter-visual/SKILL.md`.
+3. Read `../butter-motion/SKILL.md`.
+4. Read `../butter-patterns/SKILL.md`.
+5. Read `../butter-construction/SKILL.md` when writing code.
 
 Do not use only this file for implementation. This file is an index and
 orientation layer; the Butter subskills contain the actual design rules.
 
 Download guidance:
-- Want one slash command: install only `skills/SKILL.md`.
+- Want one slash command: install only `skills/butter/SKILL.md`.
 - Want focused commands: install one or more subskills.
 - Want everything: install all five skill entries.
 

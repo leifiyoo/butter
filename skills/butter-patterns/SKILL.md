@@ -1,5 +1,5 @@
 ---
-name: "butter-patterns"
+name: "butter/patterns"
 description: "Use when selecting premium Butter interaction patterns for controls, tabs, prompt bars, pickers, cards, widgets, feedback states, animated values, and compact app surfaces."
 ---
 

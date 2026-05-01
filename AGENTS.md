@@ -6,11 +6,11 @@ For any frontend, UI, design, component, Tailwind, React, or shadcn task in this
 Core directive: improve the touched UI everywhere. Add premium motion, animated text/numbers, stronger hierarchy, better spacing, and tactile state changes. Do not only preserve existing behavior; make the result visibly higher quality.
 
 Read in order:
-1. `skills/SKILL.md`
-2. `skills/visual/SKILL.md`
-3. `skills/motion/SKILL.md`
-4. `skills/patterns/SKILL.md`
-5. `skills/construction/SKILL.md` when implementing code
+1. `skills/butter/SKILL.md`
+2. `skills/butter-visual/SKILL.md`
+3. `skills/butter-motion/SKILL.md`
+4. `skills/butter-patterns/SKILL.md`
+5. `skills/butter-construction/SKILL.md` when implementing code
 
 Do not replace Butter with generic shadcn, card-stack, dashboard, or landing-page defaults.
 

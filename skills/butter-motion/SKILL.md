@@ -1,5 +1,5 @@
 ---
-name: "butter-motion"
+name: "butter/motion"
 description: "Use when UI feels static, cheap, jumpy, or lacks premium animation for text, numbers, panels, active states, controls, drag, progress, and state transitions."
 ---
 

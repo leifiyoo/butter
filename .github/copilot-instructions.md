@@ -5,11 +5,11 @@ For UI/frontend work in this repository, follow Butter.
 Default to upgrading UI quality: add meaningful motion, animated labels/numbers, better spacing, stronger hierarchy, compact tactile controls, and stable stateful layout.
 
 Use these files as the source of truth:
-- `skills/SKILL.md`
-- `skills/visual/SKILL.md`
-- `skills/motion/SKILL.md`
-- `skills/patterns/SKILL.md`
-- `skills/construction/SKILL.md` for implementation
+- `skills/butter/SKILL.md`
+- `skills/butter-visual/SKILL.md`
+- `skills/butter-motion/SKILL.md`
+- `skills/butter-patterns/SKILL.md`
+- `skills/butter-construction/SKILL.md` for implementation
 
 Keep generated UI compact, tactile, and production-shaped:
 - changing labels and numeric values animate with Butter bloom/rolling motion

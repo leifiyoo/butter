@@ -115,10 +115,10 @@ tactile transition.
 
 For real UI work, load these before implementing:
 
-- `visual/SKILL.md` for premium shape, type, color, density, and hierarchy.
-- `motion/SKILL.md` for required animation patterns.
-- `patterns/SKILL.md` for reusable Butter components.
-- `construction/SKILL.md` for React/Tailwind implementation rules.
+- `../butter-visual/SKILL.md` for premium shape, type, color, density, and hierarchy.
+- `../butter-motion/SKILL.md` for required animation patterns.
+- `../butter-patterns/SKILL.md` for reusable Butter components.
+- `../butter-construction/SKILL.md` for React/Tailwind implementation rules.
 
 If time is limited, still apply the non-negotiables below.
 

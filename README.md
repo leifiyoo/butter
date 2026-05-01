@@ -13,27 +13,33 @@ the user's request.
 
 ## Canonical Skill Files
 
-- `skills/SKILL.md` - root trigger, load order, core taste, quality gate
-- `skills/visual/SKILL.md` - radius, color, typography, spacing, surfaces
-- `skills/motion/SKILL.md` - springs, morphs, progress timing, text motion
-- `skills/patterns/SKILL.md` - reusable Butter component patterns
-- `skills/construction/SKILL.md` - implementation rules that protect design quality
+- `skills/butter/SKILL.md` - root trigger, load order, core taste, quality gate
+- `skills/butter-visual/SKILL.md` - radius, color, typography, spacing, surfaces
+- `skills/butter-motion/SKILL.md` - springs, morphs, progress timing, text motion
+- `skills/butter-patterns/SKILL.md` - reusable Butter component patterns
+- `skills/butter-construction/SKILL.md` - implementation rules that protect design quality
 
 ## Download Choices
 
 The repo intentionally exposes multiple skill entries so installers can choose
 what to download:
 
-- Install `skills/SKILL.md` for one complete Butter command.
-- Install `skills/visual/SKILL.md`, `skills/motion/SKILL.md`,
-  `skills/patterns/SKILL.md`, or `skills/construction/SKILL.md` when you want
+- Default install:
+
+  ```bash
+  npx skills add leifiyoo/butter
+  ```
+
+- Install `skills/butter/SKILL.md` for one complete Butter command.
+- Install `skills/butter-visual/SKILL.md`, `skills/butter-motion/SKILL.md`,
+  `skills/butter-patterns/SKILL.md`, or `skills/butter-construction/SKILL.md` when you want
   only a focused part.
 - Install all five only if you want separate slash commands for each Butter
   area.
 
 If duplicate slash commands are annoying, install only the core Butter skill.
 
-Best default: install `skills/SKILL.md`. It tells agents to load the subskills
+Best default: install `skills/butter/SKILL.md`. It tells agents to load the subskills
 when real UI work needs deeper visual, motion, pattern, or construction rules.
 
 ## Agent Support

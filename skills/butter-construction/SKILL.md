@@ -1,5 +1,5 @@
 ---
-name: "butter-construction"
+name: "butter/construction"
 description: "Use when implementing Butter UI so React/Tailwind code produces premium motion, animated values, stable layout, accessible controls, and high-quality visual output fast."
 ---
 

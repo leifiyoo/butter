@@ -1,5 +1,5 @@
 # Butter UI Rules
 
-For UI/frontend work, read `skills/SKILL.md` and its `visual`, `motion`, `patterns`, and `construction` subskills.
+For UI/frontend work, read `skills/butter/SKILL.md` and its `visual`, `motion`, `patterns`, and `construction` subskills.
 
 Quality bar: improve touched UI everywhere; compact object UI, neutral shell, stateful accent, `24-40px` expressive radius, stable `44-56px` controls, animated text/numbers, tabular numerals, semibold/bold labels, Butter springs, linear progress. No decorative blobs, generic gradients, nested cards, or explanatory UI copy.

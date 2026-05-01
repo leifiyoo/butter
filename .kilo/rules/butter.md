@@ -5,11 +5,11 @@ Use Butter for every UI, frontend, React, Tailwind, shadcn, or design task.
 Core directive: improve the UI everywhere you touch it. Add premium motion, animated text/numbers, tactile state changes, better spacing, and stronger visual hierarchy.
 
 Read the canonical files:
-- `skills/SKILL.md`
-- `skills/visual/SKILL.md`
-- `skills/motion/SKILL.md`
-- `skills/patterns/SKILL.md`
-- `skills/construction/SKILL.md` when coding
+- `skills/butter/SKILL.md`
+- `skills/butter-visual/SKILL.md`
+- `skills/butter-motion/SKILL.md`
+- `skills/butter-patterns/SKILL.md`
+- `skills/butter-construction/SKILL.md` when coding
 
 Quality gate:
 - visible motion for selections, open/close, feedback, and value changes

@@ -1,5 +1,5 @@
 ---
-name: "butter-visual"
+name: "butter/visual"
 description: "Use when UI looks generic, low-quality, static, poorly spaced, overly shadcn-default, visually cheap, or missing premium Butter shape, type, density, color, and hierarchy."
 ---
 
