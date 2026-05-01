@@ -5,17 +5,21 @@ Butter is a compact UI design skill for AI coding agents. It captures a premium 
 ## Canonical Skill Files
 
 - `skills/SKILL.md` - root trigger, load order, core taste, quality gate
-- `skills/visual/SKILL.md` - radius, color, typography, spacing, surfaces
-- `skills/motion/SKILL.md` - springs, morphs, progress timing, text motion
-- `skills/patterns/SKILL.md` - reusable Butter component patterns
-- `skills/construction/SKILL.md` - implementation rules that protect design quality
+- `skills/visual.md` - radius, color, typography, spacing, surfaces
+- `skills/motion.md` - springs, morphs, progress timing, text motion
+- `skills/patterns.md` - reusable Butter component patterns
+- `skills/construction.md` - implementation rules that protect design quality
+
+Only `skills/SKILL.md` is an installable skill entry. The other files are
+references loaded by the Butter skill, so installers and slash-command UIs do
+not show duplicate Butter commands.
 
 ## Agent Support
 
 The repository includes adapters for common coding agents:
 
 - Codex and other `AGENTS.md` readers
-- Claude Code via `CLAUDE.md` and `.claude/skills/SKILL.md`
+- Claude Code via `CLAUDE.md`
 - GitHub Copilot via `.github/copilot-instructions.md`
 - Kilo Code via `.kilo/rules/butter.md` and `.kilocode/rules/butter.md`
 - Cursor via `.cursor/rules/butter.mdc`

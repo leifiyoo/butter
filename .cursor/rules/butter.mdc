@@ -11,9 +11,9 @@ Use Butter for UI, frontend, component, Tailwind, React, shadcn, and visual desi
 
 Read canonical files before implementation:
 - `skills/SKILL.md`
-- `skills/visual/SKILL.md`
-- `skills/motion/SKILL.md`
-- `skills/patterns/SKILL.md`
-- `skills/construction/SKILL.md`
+- `skills/visual.md`
+- `skills/motion.md`
+- `skills/patterns.md`
+- `skills/construction.md`
 
 Preserve Butter feel: compact object UI, neutral shell, stateful accent, `24-40px` expressive radius, `44-56px` controls, tabular numerals, semibold/bold labels, tactile springs, linear progress, no decorative blobs or generic gradients.

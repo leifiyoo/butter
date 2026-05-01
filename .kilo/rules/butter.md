@@ -4,10 +4,10 @@ Use Butter for every UI, frontend, React, Tailwind, shadcn, or design task.
 
 Read the canonical files:
 - `skills/SKILL.md`
-- `skills/visual/SKILL.md`
-- `skills/motion/SKILL.md`
-- `skills/patterns/SKILL.md`
-- `skills/construction/SKILL.md` when coding
+- `skills/visual.md`
+- `skills/motion.md`
+- `skills/patterns.md`
+- `skills/construction.md` when coding
 
 Quality gate:
 - compact app object, not a landing page

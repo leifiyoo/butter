@@ -5,10 +5,10 @@ For any frontend, UI, design, component, Tailwind, React, or shadcn task in this
 
 Read in order:
 1. `skills/SKILL.md`
-2. `skills/visual/SKILL.md`
-3. `skills/motion/SKILL.md`
-4. `skills/patterns/SKILL.md`
-5. `skills/construction/SKILL.md` when implementing code
+2. `skills/visual.md`
+3. `skills/motion.md`
+4. `skills/patterns.md`
+5. `skills/construction.md` when implementing code
 
 Do not replace Butter with generic shadcn, card-stack, dashboard, or landing-page defaults.
 
